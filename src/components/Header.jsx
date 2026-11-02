@@ -12,13 +12,28 @@ export default function Header({ notification, message, cart }) {
       </div>
       <div className="left-side">
         <button className="buttons" type="button" aria-label="Notifications">
-          <LordIcon src={notification} trigger="hover" target="button" aria-hidden="true" />
+          <LordIcon
+            src={notification}
+            trigger="hover"
+            target="button"
+            aria-hidden="true"
+          />
         </button>
         <button className="buttons" type="button" aria-label="Messages">
-          <LordIcon src={message} trigger="hover" target="button" aria-hidden="true" />
+          <LordIcon
+            src={message}
+            trigger="hover"
+            target="button"
+            aria-hidden="true"
+          />
         </button>
         <button className="buttons" type="button" aria-label="Shopping cart">
-          <LordIcon src={cart} trigger="hover" target="button" aria-hidden="true" />
+          <LordIcon
+            src={cart}
+            trigger="hover"
+            target="button"
+            aria-hidden="true"
+          />
         </button>
       </div>
     </header>

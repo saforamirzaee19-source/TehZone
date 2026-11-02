@@ -4,37 +4,37 @@ export default function Sidbar() {
   const icons = [
     {
       id: 1,
-      icon: [
-        { src: "https://cdn.lordicon.com/zrkkrrpl.json", label: "Add" },
-        { src: "https://cdn.lordicon.com/cnpvyndp.json", label: "Home" },
-        { src: "https://cdn.lordicon.com/utpmnzxz.json", label: "Offers" },
-        { src: "https://cdn.lordicon.com/pbrgppbb.json", label: "Shopping" },
-        { src: "https://cdn.lordicon.com/pmawqxvu.json", label: "Delivery" },
+      icons: [
+        "https://cdn.lordicon.com/zrkkrrpl.json",
+        "https://cdn.lordicon.com/cnpvyndp.json",
+        "https://cdn.lordicon.com/utpmnzxz.json",
+        "https://cdn.lordicon.com/pbrgppbb.json",
+        "https://cdn.lordicon.com/pmawqxvu.json",
       ],
     },
     {
       id: 2,
-      icon: [
-        { src: "https://cdn.lordicon.com/hpivxauj.json", label: "Messages" },
-        { src: "https://cdn.lordicon.com/lznlxwtc.json", label: "Notifications" },
-        { src: "https://cdn.lordicon.com/btfbysou.json", label: "Analytics" },
-        { src: "https://cdn.lordicon.com/rjzlnunf.json", label: "Favorites" },
-        { src: "https://cdn.lordicon.com/msoeawqm.json", label: "Search" },
+      icons: [
+        "https://cdn.lordicon.com/hpivxauj.json",
+        "https://cdn.lordicon.com/lznlxwtc.json",
+        "https://cdn.lordicon.com/btfbysou.json",
+        "https://cdn.lordicon.com/rjzlnunf.json",
+        "https://cdn.lordicon.com/msoeawqm.json",
       ],
     },
     {
       id: 3,
-      icon: [
-        { src: "https://cdn.lordicon.com/yhtmwrae.json", label: "Information" },
-        { src: "https://cdn.lordicon.com/lecprnjb.json", label: "Settings" },
-        { src: "https://cdn.lordicon.com/hrjifpbq.json", label: "Profile" },
+      icons: [
+        "https://cdn.lordicon.com/yhtmwrae.json",
+        "https://cdn.lordicon.com/lecprnjb.json",
+        "https://cdn.lordicon.com/hrjifpbq.json",
       ],
     },
   ];
   return (
     <div className="sidbar-icons">
       {icons.map((item) => (
-        <Icons key={item.id} icon={item.icon} />
+        <Icons key={item.id} icon={item.icons} />
       ))}
     </div>
   );
